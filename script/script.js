@@ -75,7 +75,7 @@ const navTogglerBtn = document.querySelector('.nav-toggler'),
             allSection[i].classList.toggle('open');
         }
       }
-
+/*** Submit contact ***/
 const handleSubmit = (event) => {
     event.preventDefault();
     
