@@ -141,6 +141,8 @@ ul{
     display: inline-block;
     white-space: nowrap;
     background: var(--skin-color);
+    /* background: -webkit-linear-gradient(315deg,#fa5b0f 25%,#F5F5DC); */
+    /* background: linear-gradient(to right,#fa5b0f ,#f0f0a1); */
     transition: all 0.3s ease;
     border: none;
 }

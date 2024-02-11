@@ -1,10 +1,10 @@
 /* =============== typing animation =============== */
-// var typed = new Typed(".typing", {
-//     strings:["", "web designer", "Web Developer"],
-//     typeSpeed:100,
-//     BackSpeed:60,
-//     loop:true
-// });
+var typed = new Typed(".typing", {
+    strings:["", "Développeur Web", "Développeur Logiciel"],
+    typeSpeed:100,
+    BackSpeed:60,
+    loop:true
+});
 
 /* =============== Aside =============== */
 const nav = document.querySelector('.nav'),
@@ -62,7 +62,7 @@ const nav = document.querySelector('.nav'),
         showSection(this);
         updateNav(this);
         removeBackSection(sectionIndex);
-    })
+    });
 const navTogglerBtn = document.querySelector('.nav-toggler'),
       aside = document.querySelector('.aside');
       navTogglerBtn.addEventListener('click', () => {
